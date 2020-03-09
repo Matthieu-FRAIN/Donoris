@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Donoris</string>
+    <string name="drawer_open">Tiroir ouvert</string>
+    <string name="drawer_close">Fermeture du tiroir</string>
+    <string name="crop_image_activity_title"></string>
+    <string name="crop_image_menu_rotate_right">Pivoter</string>
+    <string name="crop_image_menu_crop">Recadrer</string>
+    <string name="title_activity_test">test</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="tab_text_3">Tab 3</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+
+    <integer name="slide_animation_duration">300</integer>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+</resources>

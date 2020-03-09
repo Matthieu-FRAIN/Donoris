@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Image_Post.ImagePostActivity">
+
+    <include
+        android:id="@+id/update_post_page_toolbar"
+        layout="@layout/app_bar_layout_two"/>
+
+
+    <ImageButton
+        android:id="@+id/select_post_image_image"
+        android:layout_width="wrap_content"
+        android:layout_height="370dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/inputs"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:scaleType="fitCenter"
+        app:srcCompat="@drawable/select_image_plus" />
+
+    <EditText
+        android:id="@+id/post_description_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginTop="450dp"
+        android:layout_marginRight="18dp"
+        android:background="@drawable/inputs"
+        android:ems="10"
+        android:hint="Descrivez votre photo..."
+        android:inputType="textMultiLine"
+        android:padding="15dp"
+        android:maxLines="2"
+        android:maxLength="150"/>
+
+    <Button
+        android:id="@+id/update_post_image_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="18dp"
+        android:layout_marginRight="18dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/button"
+        android:text="Publier votre photo"
+        android:textAllCaps="false"
+        android:textColor="@android:color/background_light"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>
